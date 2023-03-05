@@ -22,8 +22,8 @@ public class HelloApplication extends Application {
         primaryStage.setTitle("Record Manager");
         recordManager = new HelloController();
         primaryStage.setScene(new Scene(recordManager,
-                400.0,
-                400.0));
+                500.0,
+                500.0));
         primaryStage.show();
     }
 
